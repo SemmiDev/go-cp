@@ -18,9 +18,6 @@ func isMatchIdentity(msg string) bool {
 		}
 	}
 
-	// check if all characters contains vowels char
-	// check if each char is same with next char
-
 	if eachSplittedContainsVowels != len(splitted) {
 		return false
 	}
